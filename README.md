@@ -11,3 +11,12 @@ Download the .Bat file
 Doubleclick on the .bat file
 Done! 
 
+What I do, Mac Tool: 
+I switch the user from whatever network they are using to "Mozilla Guest"
+This is to make sure that the user is not on the "Mozilla" network
+Then I delete the "Mozilla" network from network prefrences
+After that I delete the saved password and username from Keychain
+
+What I do, Windows Tool: 
+I delete the saved network preferences
+Thats all! 
