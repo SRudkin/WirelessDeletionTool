@@ -7,4 +7,3 @@ WirelessPort=$(networksetup -listallhardwareports | awk '/Wi-Fi|AirPort/{getline
 networksetup -removepreferredwirelessnetwork $WirelessPort Mozilla
 
 security delete-generic-password -D "802.1X Password" -s com.apple.network.eap.user.item.wlan.ssid.Mozilla
-security delete-certificate -C "certificate" -s com.apple.network.eapolclient.configuration.plist
